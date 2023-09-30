@@ -6,11 +6,6 @@
 		"karmatype": "Doom"
 	},
 	{
-		"abr": "tornados",
-		"price": 29000,
-		"karmatype": "Doom"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -221,22 +216,7 @@
 		"karmatype": "Doom"
 	},
 	{
-		"abr": "dropraid",
-		"price": 1000,
-		"karmatype": "Doom"
-	},
-	{
 		"abr": "sapperraid",
-		"price": 1000,
-		"karmatype": "Doom"
-	},
-	{
-		"abr": "siegeraid",
-		"price": 1000,
-		"karmatype": "Doom"
-	},
-	{
-		"abr": "mechanoidraid",
 		"price": 1000,
 		"karmatype": "Doom"
 	},
@@ -264,6 +244,11 @@
 		"abr": "disease",
 		"price": 1000,
 		"karmatype": "Doom"
+	},
+	{
+		"abr": "reviveanypawn",
+		"price": 3000,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "pawn",
@@ -316,6 +301,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "reviveall",
+		"price": 22664,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "reviveme",
 		"price": 3000,
 		"karmatype": "Good"
@@ -327,12 +317,12 @@
 	},
 	{
 		"abr": "healanypawn",
-		"price": 500,
+		"price": 200,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healme",
-		"price": 500,
+		"price": 300,
 		"karmatype": "Good"
 	},
 	{
@@ -421,5 +411,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 84
+	"total": 82
 }

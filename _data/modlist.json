@@ -6,6 +6,18 @@
     "version": "1.5.0.0"
   },
   {
+    "author": "Samboy063 + Sl4vP0weR",
+    "name": "BetterLoading",
+    "steamId": "2884085308",
+    "version": "3.3.0.0"
+  },
+  {
+    "author": "RedMattis",
+    "name": "Big and Small + Prerequisites Framework",
+    "steamId": "2925432336",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "legodude17 and Oskar Potocki",
     "name": "Vanilla Backgrounds Expanded",
     "steamId": "2775017012",
@@ -42,32 +54,50 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Ogliss",
-    "name": "Adeptus Mechanicus: Armoury",
-    "steamId": "1541438614",
-    "version": "1.6.5.1"
-  },
-  {
     "author": "Meltup",
     "name": "Beautiful Outdoors",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Farmradish",
-    "name": "Biotech Nyaron",
+    "author": "Oskar Potocki and Smash Phil",
+    "name": "Vanilla Achievements Expanded",
+    "steamId": "2288125657",
+    "version": "1.4.8315.17730"
+  },
+  {
+    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
+    "name": "Vanilla Expanded Framework",
+    "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki, Trunken and Sarg Bjornson",
+    "name": "Vanilla Weapons Expanded",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Gouda quiche",
-    "name": "MoHAR framework",
-    "steamId": "2057001924",
-    "version": "1.0.8331.27653"
+    "author": "Oskar Potocki",
+    "name": "Vanilla Weapons Expanded - Laser",
+    "steamId": null,
+    "version": null
   },
   {
-    "author": "Millap",
-    "name": "Bori race",
+    "author": "Sparky",
+    "name": "Grimworld: Lasguns",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Odz",
+    "name": "[1.4] Astra Militarum Regimentum - Cadia",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Headshot",
+    "name": "Cadian Faction",
     "steamId": null,
     "version": null
   },
@@ -84,10 +114,58 @@
     "version": "1.4.1242.0"
   },
   {
+    "author": "miyamiya and twsta",
+    "name": "Compressed Raid",
+    "steamId": "2927368319",
+    "version": "1.4"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Dubs Mint Menus",
+    "steamId": "1446523594",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Oskar Potocki, xrushha, legodude17 and ISOREX",
+    "name": "Vanilla Furniture Expanded - Architect",
+    "steamId": "2608762624",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki, Trunken and XeoNovaDan",
+    "name": "Vanilla Furniture Expanded - Security",
+    "steamId": "1845154007",
+    "version": "1.1.1.0"
+  },
+  {
+    "author": "AobaKuma",
+    "name": "Fortifications - Industrial",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "AobaKuma",
+    "name": "Fortification Industrial - Citadel",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "theactualspinny",
+    "name": "Gene Trader",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "m00nl1ght",
     "name": "Geological Landforms",
     "steamId": "2773943594",
     "version": "1.6.5.0"
+  },
+  {
+    "author": "Smash Phil",
+    "name": "Vehicle Framework",
+    "steamId": "3014915404",
+    "version": "1.5.1368"
   },
   {
     "author": "Andreas Pardeike",
@@ -96,8 +174,26 @@
     "version": null
   },
   {
+    "author": "newcolonist",
+    "name": "Large Faction Bases",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Andreas Pardeike",
     "name": "Line Of Sight Fix",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "m00nl1ght",
+    "name": "Map Preview",
+    "steamId": "2800857642",
+    "version": "1.12.6.0"
+  },
+  {
+    "author": "UnlimitedHugs and TheRealLemon",
+    "name": "Map Reroll (1.4)",
     "steamId": null,
     "version": null
   },
@@ -120,18 +216,6 @@
     "version": "2.0.10.0"
   },
   {
-    "author": "hodlhodl",
-    "name": "ToolkitCore",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "hodlhodl",
-    "name": "Twitch Toolkit",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "SirRandoo",
     "name": "ToolkitUtils",
     "steamId": "2009500580",
@@ -150,76 +234,52 @@
     "version": "1.1.0.0"
   },
   {
-    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
-    "name": "Vanilla Expanded Framework",
-    "steamId": "2023507013",
+    "author": "Oskar Potocki, Sarg Bjornson, erdelf, Roolo, Smash Phil, Taranchuk, xrushha, Kikohi and legodude17",
+    "name": "Vanilla Factions Expanded - Pirates",
+    "steamId": "2723801948",
     "version": "1.0.0.0"
   },
   {
-    "author": "VexedTrees",
-    "name": "Rim-Elves",
+    "author": "Aoba",
+    "name": "RimHammer40k -Dreadnought",
     "steamId": null,
     "version": null
   },
   {
-    "author": "VexedTrees",
-    "name": "Rim-Gnoblins",
+    "author": "Pagoda",
+    "name": "Rimdark 40k: Fauna",
+    "steamId": "2660499842",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Smash Phil and Neceros",
+    "name": "SRTS Expanded",
+    "steamId": "2878587061",
+    "version": "1.4.7"
+  },
+  {
+    "author": "blitz1259",
+    "name": "SRTS Submod - Warhammer 40k",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Oskar Potocki and Smash Phil",
-    "name": "Vanilla Achievements Expanded",
-    "steamId": "2288125657",
-    "version": "1.4.8315.17730"
-  },
-  {
-    "author": "Oskar Potocki, Trunken and Sarg Bjornson",
-    "name": "Vanilla Weapons Expanded",
+    "author": "Roolo",
+    "name": "Search and Destroy",
     "steamId": null,
     "version": null
   },
   {
-    "author": "Oskar Potocki and XeoNovaDan",
-    "name": "Vanilla Factions Expanded - Medieval",
-    "steamId": "2023513450",
-    "version": "1.0.5.0"
-  },
-  {
-    "author": "VexedTrees",
-    "name": "Rim-Hivers!",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "VexedTrees",
-    "name": "Rim-Shek",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "VexedTrees",
-    "name": "Rim-Robots_",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "VexedTrees",
-    "name": "Rim-Skeletons",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "ruPal",
-    "name": "RimPy Mod Manager Database",
-    "steamId": null,
-    "version": null
+    "author": "PeteTimesSix",
+    "name": "Simple sidearms",
+    "steamId": "927155256",
+    "version": "1.4.6.0"
   },
   {
     "author": "Jaxe",
     "name": "Interaction Bubbles",
     "steamId": "1516158345",
-    "version": "2.6.0.0"
+    "version": "2.7.0.0"
   },
   {
     "author": "jptrrs",
@@ -237,7 +297,7 @@
     "author": "swemoney",
     "name": "Toolkit - Channel Points",
     "steamId": "1916651243",
-    "version": "1.2.0"
+    "version": "1.4.1"
   },
   {
     "author": "SirRandoo",
@@ -267,6 +327,12 @@
     "author": "the_heye",
     "name": "Twitch Chat",
     "steamId": "2075845400",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "TwitchToolkit - Lootboxes",
+    "steamId": "1720021578",
     "version": "1.0.0.0"
   },
   {
@@ -324,12 +390,6 @@
     "version": null
   },
   {
-    "author": "Kikohi and Oskar Potocki",
-    "name": "Vanilla Base Generation Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Oskar Potocki, Sarg Bjornson and Chowder",
     "name": "Vanilla Cooking Expanded",
     "steamId": null,
@@ -379,12 +439,6 @@
   },
   {
     "author": "Oskar Potocki",
-    "name": "Vanilla Weapons Expanded - Laser",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
     "name": "Vanilla Weapons Expanded - Quickdraw",
     "steamId": null,
     "version": null
@@ -408,52 +462,10 @@
     "version": null
   },
   {
-    "author": "Oskar Potocki, xrushha and legodude17",
-    "name": "Vanilla Factions Expanded - Ancients",
-    "steamId": "2654846754",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, xrushha, legodude17 and Allie",
-    "name": "Vanilla Factions Expanded - Empire",
-    "steamId": "2938820380",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, xrushha and legodude17",
-    "name": "Vanilla Factions Expanded - Deserters",
-    "steamId": "3025493377",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Kikohi and Sarg Bjornson",
-    "name": "Vanilla Factions Expanded - Insectoids",
-    "steamId": "2149755445",
-    "version": "1.2.3.1"
-  },
-  {
-    "author": "Oskar Potocki, Sarg Bjornson, erdelf, Roolo, Smash Phil, Taranchuk, xrushha, Kikohi and legodude17",
-    "name": "Vanilla Factions Expanded - Pirates",
-    "steamId": "2723801948",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Vanilla Expanded team",
-    "name": "Vanilla Factions Expanded - Vikings",
-    "steamId": "2231295285",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Oskar Potocki and Sarg Bjornson",
     "name": "Vanilla Fishing Expanded - Fishing Treasures AddOn",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Oskar Potocki, xrushha, legodude17 and ISOREX",
-    "name": "Vanilla Furniture Expanded - Architect",
-    "steamId": "2608762624",
-    "version": "1.0.0.0"
   },
   {
     "author": "Oskar Potocki and Sarg Bjornson",
@@ -600,68 +612,8 @@
     "version": null
   },
   {
-    "author": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van and Reann Shepard",
-    "name": "Vanilla Psycasts Expanded",
-    "steamId": "2842502659",
-    "version": "1.1.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Taranchuk, Reann Shepard and Sir Van",
-    "name": "Vanilla Psycasts Expanded - Hemosage",
-    "steamId": "2990596478",
-    "version": "1.0.1.0"
-  },
-  {
-    "author": "Oskar Potocki, Taranchuk, ISOREX and Sarg Bjornson",
-    "name": "Vanilla Races Expanded - Android",
-    "steamId": "2975771801",
-    "version": "1.1.0.0"
-  },
-  {
     "author": "Oskar Potocki and Sarg Bjornson",
     "name": "Vanilla Races Expanded - Custom Icons",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki and Sarg Bjornson",
-    "name": "Vanilla Races Expanded - Genie",
-    "steamId": "2901424072",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Taranchuk and Sarg Bjornson",
-    "name": "Vanilla Races Expanded - Highmate",
-    "steamId": "2995385834",
-    "version": "1.0.1.0"
-  },
-  {
-    "author": "Oskar Potocki, xrushha, Taranchuk and Sarg",
-    "name": "Vanilla Races Expanded - Hussar",
-    "steamId": "2893586390",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van and Reann Shepard",
-    "name": "Vanilla Races Expanded - Phytokin",
-    "steamId": "2927323805",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Sarg Bjornson and Erin",
-    "name": "Vanilla Races Expanded - Sanguophage",
-    "steamId": "2963116383",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki and Neronix17",
-    "name": "Vanilla Races Expanded - Saurid",
-    "steamId": "2880990495",
-    "version": "1.0.8553.21418"
-  },
-  {
-    "author": "Oskar Potocki and Sarg Bjornson",
-    "name": "Vanilla Races Expanded - Waster",
     "steamId": null,
     "version": null
   },
@@ -669,7 +621,7 @@
     "author": "Jaxe",
     "name": "RimHUD",
     "steamId": "1508850027",
-    "version": "1.13.0.0"
+    "version": "1.14.5.0"
   },
   {
     "author": "legodude17 and Oskar Potocki",
@@ -682,54 +634,6 @@
     "name": "Vanilla Social Interactions Expanded",
     "steamId": "2439736083",
     "version": "1.0.0.1"
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Diego Industrial",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki and Kikohi",
-    "name": "Vanilla Storytellers Expanded - Empress Evil",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Freya Fierce",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Igor Invader",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Maynard Medieval",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Neron Neolithic",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki and Smash Phil",
-    "name": "Vanilla Storytellers Expanded - Oskar Obnoxious",
-    "steamId": "2443118113",
-    "version": "1.4.0"
-  },
-  {
-    "author": "Oskar Potocki",
-    "name": "Vanilla Storytellers Expanded - Perry Persistent",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "Oskar Potocki and Kikohi",
@@ -762,12 +666,6 @@
     "version": "1.0.0.1"
   },
   {
-    "author": "Smash Phil",
-    "name": "Vehicle Framework",
-    "steamId": "3014915404",
-    "version": "1.5.1368"
-  },
-  {
     "author": "Oskar Potocki, xrushha, Smash Phil, Taranchuk and Reann Shepard",
     "name": "Vanilla Vehicles Expanded",
     "steamId": "3014906877",
@@ -798,24 +696,6 @@
     "version": null
   },
   {
-    "author": "Murmur",
-    "name": "Wall Light",
-    "steamId": "1423699208",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "AUTOMATIC",
-    "name": "Gunplay",
-    "steamId": "2034896549",
-    "version": "1.0.379.0018"
-  },
-  {
-    "author": "YAYO",
-    "name": "Yayo's Animation (Continued)",
-    "steamId": "2877292196",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "Oskar Potocki, Sarg Bjornson and Chowder",
     "name": "Vanilla Brewing Expanded",
     "steamId": "2186560858",
@@ -826,24 +706,6 @@
     "name": "Vanilla Brewing Expanded - Coffees and Teas",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Oskar Potocki, ISOREX, xrushha, legodude17 and Chowder",
-    "name": "Vanilla Factions Expanded - Classical",
-    "steamId": "2787850474",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Kentington, Sarg Bjornson, erdelf, Kikohi, Chowder, Taranchuk and ISOREX",
-    "name": "Vanilla Factions Expanded - Mechanoids",
-    "steamId": "2329011599",
-    "version": "1.0.1.2"
-  },
-  {
-    "author": "Oskar Potocki, Trunken and XeoNovaDan",
-    "name": "Vanilla Furniture Expanded - Security",
-    "steamId": "1845154007",
-    "version": "1.1.1.0"
   },
   {
     "author": "Oskar Potocki and Sarg Bjornson",
@@ -861,6 +723,84 @@
     "author": "Sarg, erdelf, Oskar Potocki, Luizi and Reann Shepard",
     "name": "Vanilla Genetics Expanded",
     "steamId": "2801160906",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Murmur",
+    "name": "Wall Light",
+    "steamId": "1423699208",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van and Reann Shepard",
+    "name": "Vanilla Psycasts Expanded",
+    "steamId": "2842502659",
+    "version": "1.1.0.0"
+  },
+  {
+    "author": "Ogliss",
+    "name": "Adeptus Mechanicus: Armoury",
+    "steamId": "1541438614",
+    "version": "1.6.5.1"
+  },
+  {
+    "author": "Sparky, Clashgore, HappyPurging, Odzmang, BlackMarket420, Tittymcswaggy, Alite and Abomination",
+    "name": "GrimWorld 40,000 - Core Imperialis",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Clashgore, HappyPurging, Odzmang, BlackMarket420, Tittymcswaggy, Robert2204 and Abomination",
+    "name": "Grimworld 40,000 - Angels of Death",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Sparky, Clashgore, HappyPurging, Odzmang, BlackMarket420, Tittymcswaggy, Alite and Abomination",
+    "name": "Grimworld 40,000 - Hammer of the Imperium",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Samael, Clashgore, Alite, Anthitei, Blackmarket420 and Abomination",
+    "name": "GrimWorld 40,000 - Vehicles of Grimworld",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ogliss",
+    "name": "Adeptus Mechanicus: Magos Xenobiologis",
+    "steamId": "1541499916",
+    "version": "1.6.5.1"
+  },
+  {
+    "author": "Phonicmas",
+    "name": "Warhammer 40k - Core",
+    "steamId": "3025477432",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Phonicmas",
+    "name": "Warhammer 40k - Genes",
+    "steamId": "3025485862",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Phonicmas",
+    "name": "Warhammer 40k - Psycasts",
+    "steamId": "3025488644",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "AUTOMATIC",
+    "name": "Gunplay",
+    "steamId": "2034896549",
+    "version": "1.0.379.0018"
+  },
+  {
+    "author": "YAYO",
+    "name": "Yayo's Animation (Continued)",
+    "steamId": "2877292196",
     "version": "1.0.0.0"
   },
   {
