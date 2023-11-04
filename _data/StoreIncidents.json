@@ -126,6 +126,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "maninblack",
+		"price": 1000,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "madanimal",
 		"price": 200,
 		"karmatype": "Bad"
@@ -411,5 +416,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 82
+	"total": 83
 }

@@ -3190,7 +3190,7 @@
       "addPrice": 500,
       "removePrice": 500,
       "degree": 0,
-      "description": "Timmy is compulsed to steal and take things that don't belong to them, even if it means angering the other party.",
+      "description": "Timmy is compulsive to steal and take things that don't belong to them, even if it means angering the other party.",
       "stats": [
         "Only mental break \"VTE_Kleptomaniac\" allowed."
       ],
@@ -3430,10 +3430,14 @@
         "+4 medical",
         "+20% medical tend quality"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "slowlearner"
+      ],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
+        "conflicts": [
+          "slowlearner"
+        ],
         "stats": [
           "+4 intellectual",
           "+4 medical",
@@ -3662,33 +3666,25 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
-      "stats": [
-        "-20% mental break threshold"
-      ],
+      "description": "Timmy believes he carries the \"superior genetic code\". he will frown upon those who do not share his xenotype.",
+      "stats": [],
       "conflicts": [
-        "abrasive",
-        "kind",
-        "psychopath"
+        "kind"
       ],
       "bypassLimit": false,
       "data": {
         "conflicts": [
-          "abrasive",
-          "kind",
-          "psychopath"
+          "kind"
         ],
-        "stats": [
-          "-20% mental break threshold"
-        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Big and Small + Prerequisites Framework",
+        "mod": "Rim-Elves",
         "karmaTypeForAdding": null
       },
-      "defName": "BS_Gentle",
-      "name": "gentle"
+      "defName": "RE_SuperiorityComplex",
+      "name": "bigot"
     },
     {
       "canAdd": true,
@@ -3696,21 +3692,163 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy is large enough to use oversized weapons.",
+      "description": "Timmy is always ready with a flirtatious comment or a playful compliment, lifting the spirits of those around him. he has a knack for making others feel special and desired, however this may sometimes lead to complicated situations when he's playful intentions are misinterpreted.",
       "stats": [],
-      "conflicts": [],
+      "conflicts": [
+        "abrasive",
+        "psychopath"
+      ],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
+        "conflicts": [
+          "abrasive",
+          "psychopath"
+        ],
         "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Big and Small + Prerequisites Framework",
+        "mod": "Vanilla Races Expanded - Highmate",
         "karmaTypeForAdding": null
       },
-      "defName": "BS_Giant",
-      "name": "giant"
+      "defName": "VRE_Flirty",
+      "name": "flirty"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is exceptionally empathetic and sensitive to the suffering of others. Whenever he witnesses pain or hardship, it deeply affects him, resulting in memories of these events haunting Timmy for a much longer time.",
+      "stats": [],
+      "conflicts": [
+        "bloodlust",
+        "psychopath"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "bloodlust",
+          "psychopath"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Races Expanded - Highmate",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VRE_Distressed",
+      "name": "distressed"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy은(는) 보리입니다. 빠른 심장박동이 신진대사를 활성화시켜서 재빠르지만, 거친 호흡이 동반되어 정신사납습니다.",
+      "stats": [
+        "+0.20 move speed",
+        "-10.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.20 move speed",
+          "-10.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Bori race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Bori_Rough_heart",
+      "name": ""
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "Timmy despises artificial humanoids. he sees them as the potential downfall of all biological sentience.",
+      "stats": [],
+      "conflicts": [
+        "anthropophobe",
+        "anthropophile"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "anthropophobe",
+          "anthropophile"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Robots_",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Automatonophobia",
+      "name": "automatonophobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "Timmy despises biological humanoids. he sees them as a disease that must be snuffed out.",
+      "stats": [],
+      "conflicts": [
+        "automatonophobe"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "automatonophobe"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Robots_",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Anthropophobia",
+      "name": "anthropophobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1,
+      "description": "Timmy exists to serve humanity. he has an unshakable yet endearing infatuation with biological sentience.",
+      "stats": [],
+      "conflicts": [
+        "automatonophobe"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "automatonophobe"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim-Robots_",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Anthropophobia",
+      "name": "anthropophile"
     }
   ],
   "races": [
@@ -3740,67 +3878,509 @@
       "data": {
         "customName": false,
         "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
+          "+65.00 Mass",
+          "+100% Flammability",
+          "+$2000 Market value",
+          "+2 Honor value",
+          "+75 Carrying capacity",
+          "+80% Global learning factor",
+          "+50% Psychic sensitivity",
+          "+100% Rest rate multiplier",
+          "+80% Global work speed",
+          "+1.15 Foraged food amount",
+          "+100.00% Negotiation ability",
+          "+70.00% Social impact",
+          "+70.00% Trade price improvement",
+          "+40 Leather amount",
+          "+85% Pain shock threshold",
+          "+30% Mental break threshold",
+          "+32.4F Minimum comfortable temperature",
+          "+54.0F Maximum comfortable temperature",
+          "+5.50 Move speed",
+          "+100% Toxic resistance",
+          "+90% Aiming time",
+          "+10.0 Melee dodge chance",
+          "+1.5 Melee hit chance"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "Ratlings (Homo sapiens minimus) are small, loud, hungry and lecherous Abhumans who often serve as snipers in the Astra Militarum, a role at which they excel. Ratlings also serve as cooks for Imperial Guard regiments, a skill they no doubt learned in order to feed their own seemingly bottomless stomachs; and they also have kleptomaniac tendencies, as Commissars report petty theft and illegal gambling rings increase substantially when Ratlings are attached to a platoon, company or regiment.",
-      "defName": "OG_Abhuman_Ratlin",
+      "description": "영역 보호 본능이 강한 유전자 변형 인간입니다. 개의 귀와 꼬리를 가지고있습니다.",
+      "defName": "Alien_Bori",
       "enabled": true,
-      "name": "ratling",
-      "price": 2917
+      "name": "Bori",
+      "price": 3333
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+65.00 Mass",
+          "+150% Flammability",
+          "+$3000 Market value",
+          "+4 Honor value",
+          "+45 Carrying capacity",
+          "+150% Global learning factor",
+          "+30% Psychic sensitivity",
+          "+75% Rest rate multiplier",
+          "+105% Global work speed",
+          "+1 Foraged food amount",
+          "+130.00% Negotiation ability",
+          "+130.00% Social impact",
+          "+130.00% Trade price improvement",
+          "+70 Leather amount",
+          "+50% Pain shock threshold",
+          "+30% Mental break threshold",
+          "+9.0F Minimum comfortable temperature",
+          "+50.4F Maximum comfortable temperature",
+          "+4.50 Move speed",
+          "+120% Aiming time",
+          "+5.0 Melee dodge chance",
+          "+0.8 Melee hit chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "아름답고 강력한 `오리온` 이라는 털을 생산해내는 양 유전자를 가진 유전자 변형 인간입니다. 대부분의 개체가 연약합니다.",
+      "defName": "Alien_SP",
+      "enabled": true,
+      "name": "SP",
+      "price": 5000
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+70% Flammability",
-          "+$2500 Market value",
-          "+3.50 Move speed",
-          "-18.0F Minimum comfortable temperature",
-          "+57.6F Maximum comfortable temperature",
-          "+150 Leather amount",
-          "+3 Honor value"
+          "+150% Flammability",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+50% Psychic sensitivity",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$500 Market value",
+          "+5.20 Move speed",
+          "+85 Carrying capacity",
+          "+20% Mental break threshold",
+          "+50% Research speed",
+          "+150% Mining speed",
+          "+80.00% Social impact",
+          "+180% Plant work speed",
+          "+100% Plant harvest yield",
+          "+80% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+0.0% Armor - Sharp"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "The dim-witted human sub-species called Ogryns (Homo sapiens gigantus) evolved on high-gravity, low-temperature prison planets. They are huge and unusually stupid for a human subrace, but unquestionably loyal to the Imperium once introduced to the faith of the Imperial Cult. Ogryns are used as the Imperial Guard's shock troops, and for this role, they are commonly outfitted with the Ripper Gun. The Ripper Gun is a weapon simple enough for them to operate, although some feral Ogryn cannot even fathom this device. Ogryn are also frequently used as bodyguards by Imperial Commanders.",
-      "defName": "OG_Abhuman_Ogryn",
+      "description": "A hiver drone - the genetic caste that performs various tasks and labor for their hive. They possess a biological affinity for menial labor, making them desirable slaves.\n\nOften upon being exiled or severed from the hive, a drone will be bewildered by its new sense of self, sometimes causing an existential crisis.",
+      "defName": "Hiver_Worker",
       "enabled": true,
-      "name": "ogryn",
-      "price": 4167
+      "name": "hiver drone",
+      "price": 833
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+75 Leather amount",
-          "+3 Honor value"
+          "+100% Flammability",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+50% Psychic sensitivity",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$500 Market value",
+          "+4.61 Move speed",
+          "+80 Carrying capacity",
+          "+20% Mental break threshold",
+          "+50% Research speed",
+          "+100% Mining speed",
+          "+80.00% Social impact",
+          "+50% Plant work speed",
+          "+50% Plant harvest yield",
+          "+80% Construction speed",
+          "+10.0% Armor - Blunt",
+          "+20.0% Armor - Sharp"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "A baseline human, while mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets, members of the Cult Mechanicus have usually undergone heavy bionic modifications.",
-      "defName": "OG_Human_Mechanicus",
+      "description": "A hiver soldier drone - the genetic caste used for offense and defense in service of their hive.\n\nCompared to other drone castes they are proficient in combat, with thick plates of chitin on certain parts of their body - inhibiting them from pursuing a craft that requires deftness of hand.",
+      "defName": "Hiver_Soldier",
       "enabled": true,
-      "name": "human (Mechanicus)",
-      "price": 2917
+      "name": "hiver soldier drone",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+150% Flammability",
+          "+50% Psychic sensitivity",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$500 Market value",
+          "+5.20 Move speed",
+          "+85 Carrying capacity",
+          "+20% Mental break threshold",
+          "+50% Research speed",
+          "+100% Mining speed",
+          "+80.00% Social impact",
+          "+100% Plant work speed",
+          "+100% Plant harvest yield",
+          "+80% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+0.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver drone - the genetic caste that performs various tasks and labor for their hive. They possess a biological affinity for menial labor.\n\nOften upon being exiled or severed from the hive, a drone will be bewildered by its new sense of self, sometimes causing an existential crisis.",
+      "defName": "Hiver_Worker_South",
+      "enabled": true,
+      "name": "hiver drone",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+50% Psychic sensitivity",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+70% Toxic environment resistance",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$500 Market value",
+          "+4.61 Move speed",
+          "+80 Carrying capacity",
+          "+20% Mental break threshold",
+          "+50% Research speed",
+          "+100% Mining speed",
+          "+80.00% Social impact",
+          "+50% Plant work speed",
+          "+50% Plant harvest yield",
+          "+80% Construction speed",
+          "+20.0% Armor - Blunt",
+          "+30.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver warrior drone - the genetic caste used for offense and defense in service of their hive.\n\nCompared to other drone castes they are proficient in combat, with thick plates of chitin on certain parts of their body - inhibiting them from pursuing a craft that requires deftness of hand.",
+      "defName": "Hiver_Soldier_South",
+      "enabled": true,
+      "name": "hiver warrior drone",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+150% Flammability",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+100% Psychic sensitivity",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$1000 Market value",
+          "+4.61 Move speed",
+          "+75 Carrying capacity",
+          "+30% Mental break threshold",
+          "+150% Research speed",
+          "+50% Mining speed",
+          "+100.00% Social impact",
+          "+80% Plant work speed",
+          "+100% Plant harvest yield",
+          "+150% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+0.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver prince - the genetic caste that often commands its hive's drones; though they still follow the will of their queen. They are more intelligent than regular drones, possessing a biological affinity for intellectual tasks.",
+      "defName": "Hiver_Prince",
+      "enabled": true,
+      "name": "hiver prince",
+      "price": 1667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+150% Flammability",
+          "+250% Psychic sensitivity",
+          "+100% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+5 Honor value",
+          "+$1500 Market value",
+          "+4.61 Move speed",
+          "+50 Carrying capacity",
+          "+30% Mental break threshold",
+          "+80% Research speed",
+          "+50% Mining speed",
+          "+120.00% Negotiation ability",
+          "+120.00% Social impact",
+          "+80% Plant work speed",
+          "+100% Plant harvest yield",
+          "+80% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+0.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver queen - the only biologically female caste in its hive, they often control their drones via pheromone signals. They are more intelligent than regular drones, possessing an increased cerebral capacity.\n\nQueens birth new hiver castes every month by expelling larvae from their chest cavity.",
+      "defName": "Hiver_Queen",
+      "enabled": true,
+      "name": "hiver queen",
+      "price": 2500
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+150% Flammability",
+          "+100% Psychic sensitivity",
+          "+0% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+$1000 Market value",
+          "+4.61 Move speed",
+          "+75 Carrying capacity",
+          "+30% Mental break threshold",
+          "+100% Research speed",
+          "+50% Mining speed",
+          "+80.00% Social impact",
+          "+60% Plant work speed",
+          "+100% Plant harvest yield",
+          "+150% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+0.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver prince - the genetic caste that often commands its hive's drones; though they still follow the will of their queen. They are more intelligent than regular drones, possessing a biological affinity for intellectual tasks.",
+      "defName": "Hiver_Prince_South",
+      "enabled": true,
+      "name": "hiver prince",
+      "price": 1667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+150% Flammability",
+          "+250% Psychic sensitivity",
+          "+100% Fertility",
+          "+50% Toxic resistance",
+          "+50% Toxic environment resistance",
+          "+32.4F Minimum comfortable temperature",
+          "+66.6F Maximum comfortable temperature",
+          "+5 Honor value",
+          "+$1500 Market value",
+          "+4.61 Move speed",
+          "+50 Carrying capacity",
+          "+30% Mental break threshold",
+          "+100% Research speed",
+          "+50% Mining speed",
+          "+100.00% Negotiation ability",
+          "+120.00% Social impact",
+          "+80% Plant work speed",
+          "+100% Plant harvest yield",
+          "+80% Construction speed",
+          "+0.0% Armor - Blunt",
+          "+10.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A hiver queen - the only biologically female caste in its hive, they often control their drones via pheromone signals. They are more intelligent than regular drones, possessing an increased cerebral capacity.\n\nQueens birth new hiver castes every month by expelling larvae from their chest cavity.",
+      "defName": "Hiver_Queen_South",
+      "enabled": true,
+      "name": "hiver queen",
+      "price": 2500
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+0% Flammability",
+          "+0% Fertility",
+          "+100% Toxic resistance",
+          "+100% Toxic environment resistance",
+          "+2 Repair energy cost",
+          "+100% Persona repair speed",
+          "+0 Meat amount",
+          "+0 Leather amount",
+          "+1 Mech bandwidth",
+          "+50% Psychic sensitivity",
+          "+4.15 Move speed",
+          "-180.0F Minimum comfortable temperature",
+          "+450.0F Maximum comfortable temperature",
+          "+$4500 Market value",
+          "+85 Carrying capacity",
+          "+20% Mental break threshold",
+          "+90% Pain shock threshold",
+          "+50% Injury healing factor",
+          "+80% Research speed",
+          "+50.00% Social impact",
+          "+80% Plant harvest yield",
+          "+120% Construction speed",
+          "+7.2% Armor - Blunt",
+          "+18.5% Armor - Sharp",
+          "+200.0% Armor - Heat"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A humanlike-mechanoid that utilizes a highly sophisticated subpersona core to approach a live human in its thought complexity; however, their \"minds\" are of a very different nature. And are incapable of emulating complex emotions.\n\nWhile they possess a degree of individuality, mechanents are not fully sentient - relying on mimicry of human behavior to appear less mechanical.",
+      "defName": "Mechanent",
+      "enabled": true,
+      "name": "mechanent",
+      "price": 7500
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+0% Fertility",
+          "+100% Toxic resistance",
+          "+100% Toxic environment resistance",
+          "+2 Repair energy cost",
+          "+100% Persona repair speed",
+          "+0 Meat amount",
+          "+0 Leather amount",
+          "+2 Mech bandwidth",
+          "-90.0F Minimum comfortable temperature",
+          "+270.0F Maximum comfortable temperature",
+          "+6 Honor value",
+          "+0.5 Beauty",
+          "+1.2 Melee dodge chance",
+          "+$5500 Market value",
+          "+5.00 Move speed",
+          "+120% Medical surgery success chance",
+          "+80% Injury healing factor",
+          "+120% Research speed",
+          "+120.00% Negotiation ability",
+          "+120.00% Social impact",
+          "+180.0% Armor - Heat"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "The avatar of an AI persona core - a fusion of archotech and bleeding-edge technology, their vessels are often analogous and strikingly identical to a live human. They're both reviled and revered by human cultures.",
+      "defName": "Personae_",
+      "enabled": true,
+      "name": "persona",
+      "price": 9167
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+85% Flammability",
+          "+90% Psychic sensitivity",
+          "+80% Fertility",
+          "+10% Toxic environment resistance",
+          "+34.2F Minimum comfortable temperature",
+          "+50.4F Maximum comfortable temperature",
+          "+1 Honor value",
+          "+1.2 Melee dodge chance",
+          "+$1500 Market value",
+          "+4.30 Move speed",
+          "+85 Carrying capacity",
+          "+30% Mental break threshold",
+          "+80% Research speed",
+          "+100% Mining speed",
+          "+80.00% Social impact",
+          "+80% Plant work speed",
+          "+100% Plant harvest yield",
+          "+100% Construction speed",
+          "+20.0% Armor - Blunt",
+          "+30.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A baseline shek; a closely related subrace of humans, thought to have been genetically engineered for combat during the mechanoid wars - sporting large horns from their heads, and bone plating on their chest and limbs; the latter of which aids them with protection.",
+      "defName": "Shek_",
+      "enabled": true,
+      "name": "shek",
+      "price": 2500
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 Mass",
+          "+0% Flammability",
+          "+0% Fertility",
+          "+50% Psychic sensitivity",
+          "+100% Toxic resistance",
+          "+100% Toxic environment resistance",
+          "-180.0F Minimum comfortable temperature",
+          "+450.0F Maximum comfortable temperature",
+          "+99900% Immunity gain speed",
+          "+0 Meat amount",
+          "+0 Leather amount",
+          "+4 Honor value",
+          "+0.5 Melee dodge chance",
+          "+$5800 Market value",
+          "+4.25 Move speed",
+          "+90 Carrying capacity",
+          "+20% Mental break threshold",
+          "+50% Pain shock threshold",
+          "+130% Research speed",
+          "+90% Mining speed",
+          "+50.00% Social impact",
+          "+50% Plant work speed",
+          "+70% Plant harvest yield",
+          "+100% Construction speed",
+          "+12.0% Armor - Blunt",
+          "+40.0% Armor - Sharp",
+          "+200.0% Armor - Heat"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A reclusive and diminishing race of proto-mechanical persona, 'skeletons' are fully sentient and feeling mechanical entities; they were built thousands of years ago as stand-ins for humans during lengthy processes, such as space flight. Since being manufactured they have been replaced by the far more complex mechanoid and AI persona.\n\nBeing mechanical in nature - 'skeletons' do not need to rest or eat. However, due to their incredibly long lifespan and common crushing existential dread; most 'skeletons' are depressed or dreadfully pessimistic.",
+      "defName": "Skeleton_",
+      "enabled": true,
+      "name": "skeleton",
+      "price": 9667
     }
   ]
 }
